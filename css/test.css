@@ -99,18 +99,15 @@
       margin-left: 76px;
     }
     
-    .header-container {
-      display: flex;
-    }
+    .header-container {display: flex;
+      justify-content: space-between;}
     
     .header-nav {
       display: flex;
       margin-right: 0 auto;
     }
     
-    .header-adr {
-      margin-left: auto;
-    }
+  
     
     .menu-list {
       display: none;
@@ -166,6 +163,8 @@
     border-radius: 2px;
     }
     .studio-active{color: #404BBF;}}
+
+.mobile-menu-button{width: 32px; height: 22px; margin-top: 24px; margin-bottom: 24px; display: flex; justify-content: center; align-items: center;}
     
     
     
