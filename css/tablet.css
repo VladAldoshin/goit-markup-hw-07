@@ -1,8 +1,5 @@
 @media screen and (max-width: 768px){
-.mobile-menu-button {display: none;}
 
-.menu-list{display: flex;}
-.link-header-tablet{display: flex; flex-direction: column;}
 
 }
 
