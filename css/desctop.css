@@ -116,8 +116,8 @@
     letter-spacing: 0.02em;
     color: #ffffff;
   }
-  @media screen and (min-width: 1400px) {
-    .hero-section-button {
+  
+    /* .hero-section-button {
     padding-top: 16px;
     padding-right: 32px;
     padding-bottom: 16px;
@@ -133,7 +133,7 @@
     border-radius: 4px;
     border: 0;
     transition: color 250ms var(--cubic), background 250ms var(--cubic);
-  }}
+  }
 
   .hero-section-button:hover {
     color: #ffffff;
@@ -143,7 +143,7 @@
   .hero-section-button:active {
     color: #ffffff;
     background: #404bbf;
-  }
+  } */
   
   /* ===============================Second section================================================ */
   
@@ -152,9 +152,9 @@
     padding-bottom: 120px;
   }
   
-  .feature-list {
+  /* .feature-list {
     display: flex;
-  }
+  } */
   
   .secret-name {
     position: absolute;

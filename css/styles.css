@@ -223,9 +223,9 @@ border-radius: 2px;
   padding-bottom: 120px;
 }
 
-.feature-list {
+/* .feature-list {
   display: flex;
-}
+} */
 
 .secret-name {
   position: absolute;

@@ -38,54 +38,7 @@
     color: #ffffff;
   }
 
-    .hero-section-button {
-    width: 169px;
-    height: 56px;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    background: #4d5ae5;
-    cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: 0;
-    transition: color 250ms var(--cubic), background 250ms var(--cubic);
-  }
-  .hero-section-button {
-    width: 169px;
-    height: 56px;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    background: #4d5ae5;
-    cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: 0;
-    transition: color 250ms var(--cubic), background 250ms var(--cubic);
-  }
-  .hero-section-button:hover {
-    color: #ffffff;
-    background: #404bbf;
-  }
-  .hero-section-button:focus,
-  .hero-section-button:active {
-    color: #ffffff;
-    background: #404bbf;}
-
-    /* second section */
+     /* second section */
     .second-section {
         padding-top: 96px;
         padding-bottom: 96px;
@@ -94,7 +47,7 @@
       .feature-list {
         display: flex;
         flex-direction: column;
-    gap: 72px;}
+        gap: 72px;}
       
       .secret-name {
         position: absolute;
