@@ -37,6 +37,26 @@
     text-transform: capitalize;
     color: #ffffff;
   }
+
+    .hero-section-button {
+    width: 169px;
+    height: 56px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background: #4d5ae5;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+    transition: color 250ms var(--cubic), background 250ms var(--cubic);
+  }
   .hero-section-button {
     width: 169px;
     height: 56px;
