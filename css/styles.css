@@ -34,7 +34,6 @@ body {
   background-color: #ffffff;
 }
 .container {
-  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -700,11 +699,6 @@ transition: color 250ms var(--cubic), background 250ms var(--cubic);}
 .modal-form-button:is(:hover, :focus) {color: #ffffff;
   background: #404bbf;}
 
-
-
-
-
-
 /* =======================================Portfolio=========================================== */
 .first-section {
 padding-top: 96px;
@@ -871,3 +865,9 @@ mix-blend-mode: normal;
 .portfolio-menu-item:hover .overlay,
 .portfolio-menu-link:focus .overlay
 {transform: translate(0, 0);}
+
+
+
+
+
+

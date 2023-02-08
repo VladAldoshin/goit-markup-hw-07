@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px){
+.mobile-menu-button {display: none;}
+
+.menu-list{display: flex;}
+.link-header-tablet{display: flex; flex-direction: column;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {.container {width: 582px;}}
