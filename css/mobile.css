@@ -255,9 +255,9 @@
         max-width: 264px;
         margin-top: 16px;
         }
-        .footer-first-text {
+        /* .footer-first-text {
         
-        }
+        } */
         
         .logo-web {
         color: #4d5ae5;
@@ -304,7 +304,7 @@
         color: #FFFFFF;
         margin-bottom: 16px;}
         
-        .footer-form {display: flex; justify-content: center; align-items: center;}
+        /* .footer-form {display: flex; justify-content: center; align-items: center;} */
         
         .footer-input{
         width: 264px; 
