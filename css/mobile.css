@@ -4,7 +4,7 @@
 
 .adress-list{display: none;}
 
-.link-header{display: none;}
+/* .link-header{display: none;} */
 
 .mobile-menu-button {width: 32px; height: 22px; margin-top: 24px; margin-bottom: 24px; display: flex; justify-content: center; align-items: center;}}
 
@@ -29,7 +29,6 @@
   .hero-section-title {
     margin: 0 auto;
     max-width: 318px;
-    height: 80px;
     margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
@@ -66,7 +65,8 @@
       }
 
       .work-item{display: flex;flex-direction: column; justify-content: center; align-items: center;}
-    
+
+     
       .thumb {
         display: none;
         justify-content: center;
@@ -163,13 +163,12 @@
 
     /* fifth section */
 
-    .fifth-section {
+    /* .fifth-section {
         padding-top: 96px;
         padding-bottom: 96px;
-      }
+      } */
       .customers-list {
         display: flex;
-        
         gap: 24px;
       }
       .fifth-section-title {
@@ -324,3 +323,4 @@
 @media screen and (min-width: 480px) {
 
 .container {width: 426px;}}
+  

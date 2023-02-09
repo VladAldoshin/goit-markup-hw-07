@@ -86,7 +86,7 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.link-header {
+.link-header {display: none;
   padding-top: 24px;
   padding-bottom: 24px;
   margin-left: 76px;
@@ -698,6 +698,22 @@ transition: color 250ms var(--cubic), background 250ms var(--cubic);}
 
 .modal-form-button:is(:hover, :focus) {color: #ffffff;
   background: #404bbf;}
+
+  /* mobile modal */
+
+  /* .mobile-menu-container{width: 428px; height: 528px; position: relative; display: block;}
+  .mobile-menu-close-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    top: 40px;
+    right: 40px;
+    position: absolute;
+    background: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;} */
 
 /* =======================================Portfolio=========================================== */
 .first-section {
