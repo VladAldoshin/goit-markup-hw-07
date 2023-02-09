@@ -12,6 +12,7 @@
 
 .link-header-tablet{display: none;}
 
+
 /* hero section */
 
 .hero-section {
@@ -76,7 +77,6 @@
         height: 112px;
       }
       .thumb-icon {
-        display: none;
         width: 64px;
         height: 64px;
       }
@@ -146,7 +146,7 @@
         justify-content: center;
         gap: 24px;
       }
-      .social-list-link {
+      /* .social-list-link {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -159,7 +159,7 @@
       }
       
       .social-list-link:hover,
-      .social-list-link:focus {fill: #F4F4FD; background-color: #404BBF;}
+      .social-list-link:focus {fill: #F4F4FD; background-color: #404BBF;} */
 
     /* fifth section */
 

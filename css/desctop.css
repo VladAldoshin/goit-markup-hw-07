@@ -152,9 +152,10 @@
     padding-bottom: 120px;
   }
   
-  /* .feature-list {
+  .feature-list {
     display: flex;
-  } */
+  flex-direction: row;
+  }
   
   .secret-name {
     position: absolute;
@@ -342,6 +343,7 @@
   }
   .footer-text {
   display: flex;
+  flex-direction: row;
   align-items: baseline;
   }
   

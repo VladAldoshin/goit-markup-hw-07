@@ -179,7 +179,7 @@ border-radius: 2px;
   background-size: cover;
 }
 
-.hero-section-title {
+/* .hero-section-title {
   margin: 0 auto;
   max-width: 498px;
   margin-bottom: 48px;
@@ -188,7 +188,7 @@ border-radius: 2px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-}
+} */
 .hero-section-button {
   padding-top: 16px;
   padding-right: 32px;
@@ -223,9 +223,9 @@ border-radius: 2px;
   padding-bottom: 120px;
 }
 
-/* .feature-list {
+.feature-list {
   display: flex;
-} */
+}
 
 .secret-name {
   position: absolute;
