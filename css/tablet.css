@@ -132,7 +132,12 @@ margin-bottom: 72px;
   
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px){.work-item {}}
-
+@media screen and (min-width: 768px) and (max-width: 1199px){
+.work-item {width: 356px; margin-bottom: 72px;}
+.work-item:nth-child(odd){margin-right: 24px;}}
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+}
   }
 
