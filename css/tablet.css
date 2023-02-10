@@ -112,30 +112,27 @@ margin-bottom: 72px;
   color: #ffffff;
 }
 
-.title {
-  text-align: start;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2E2F42;
-  margin-bottom: 8px;
-  
-}
-
-.text {
-  font-family: 'Roboto';
+/* .title-our-team {
+  Font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2E2F42;
+    }
   
-}
+  .text-our-team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+  } */
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
 .work-item {width: 356px;}

@@ -98,7 +98,7 @@ margin-bottom: 72px;
   color: #ffffff;
 }
 
-.title {
+/* .title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -109,16 +109,16 @@ margin-bottom: 72px;
   text-transform: capitalize;
   color: #2E2F42;
   margin-bottom: 8px;
-  }
+  } */
 
-.text {
+/* .text {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;}
+  color: #434455;} */
 
   .text:not(:last-child) {margin-bottom: 72px;}
 
