@@ -108,9 +108,9 @@ display: none;}}
 
 .header-container{display:flex; justify-content: space-between;}
  
-.header-item:not(:last-child) {
+/* .header-item:not(:last-child) {
   margin-right: 40px;
-}
+} */
 
 .head-logo-web {
   color: #4d5ae5;
@@ -182,11 +182,11 @@ border-radius: 2px;
 
 .hero-section-title {
 margin: 0 auto;
-max-width: 318px;
+max-width: 319px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
-font-size: 36px;
+font-size: 30px;
 line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
@@ -278,8 +278,9 @@ margin-bottom: 72px;
   letter-spacing: 0.02em;
   color: #434455;
 }
+@media screen and (max-width: 767px){.text:not(:last-child) {margin-bottom: 72px;}}
 
-.text:not(:last-child) {margin-bottom: 72px;}
+
 
 /* ==========================================Third section=============================== */
 .third-section {

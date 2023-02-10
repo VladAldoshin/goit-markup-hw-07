@@ -8,7 +8,7 @@
 
 /* ============Hero section==================== */
 .hero-section {
-  max-width: 428px;
+  max-width: 480px;
   margin: 0 auto;
   background: rgba(46, 47, 66, 0.7);
   text-align: center;
@@ -26,7 +26,7 @@
 
 .hero-section-title {
 margin: 0 auto;
-max-width: 318px;
+max-width: 319px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;

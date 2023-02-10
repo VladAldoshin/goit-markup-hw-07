@@ -5,6 +5,10 @@
   
   .link-header {display: flex;}
 
+  .header-item-tablet:not(:last-child) {
+    margin-right: 40px;
+  }
+
   @media screen and (max-width: 1199px) {.menu-list {
   display: flex;
   flex-direction: column;
@@ -46,7 +50,7 @@ margin: 0;}}
 
 .hero-section-title {
 margin: 0 auto;
-max-width: 318px;
+max-width: 319px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -134,7 +138,9 @@ margin-bottom: 72px;
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
 .work-item {width: 356px; margin-bottom: 72px;}
-.work-item:nth-child(odd){margin-right: 24px;}}
+.work-item:nth-child(odd){margin-right: 24px;} 
+.work-item:calc((100% - 24px) / 2);}
+
 .feature-list {
   display: flex;
   flex-wrap: wrap;
