@@ -123,6 +123,19 @@ margin-bottom: 72px;
   .text:not(:last-child) {margin-bottom: 72px;}
 
 
+/* fifth section */
+
+@media screen and (max-width: 767px){
+  .customers-icon {
+   width: 168px;
+   height: 88px;
+   padding-top: 16px;
+   padding-right: 40px;
+   padding-bottom: 16px;
+   padding-left: 40px;
+  }}
+
+
 
 
 

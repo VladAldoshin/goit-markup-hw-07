@@ -113,6 +113,7 @@ margin-bottom: 72px;
 }
 
 .title {
+  text-align: start;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -137,14 +138,20 @@ margin-bottom: 72px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
-.work-item {width: 356px; margin-bottom: 72px;}
-.work-item:nth-child(odd){margin-right: 24px;} 
-.work-item:calc((100% - 24px) / 2);}
+.work-item {width: 356px;}
+.work-item:nth-child(odd){margin-right: 24px;}}
 
 .feature-list {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;}}
+
+  /* Fourth section */
+  @media screen and (max-width: 1199px){ .fourth-section {
+    padding-top: 96px;
+    padding-bottom: 104px;
+    background: #f4f4fd;
+  }
 }
 
-  }
 
