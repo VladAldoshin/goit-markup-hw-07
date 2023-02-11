@@ -18,6 +18,7 @@
     padding-bottom: 40px;
     background-color: #FFFFFF; 
     z-index: 10000;
+    transition: opacity 250ms var(--cubic), visibility 250ms var(--cubic);
     
   }
   
@@ -41,7 +42,7 @@
   
   .moobile-menu-navigation {margin-bottom: 284px;
   }
-  .mobile-menu-list { display: flex; flex-direction: column; transition: color 250ms var(--cubic);}
+  .mobile-menu-list { display: flex; flex-direction: column; gap: 40px; transition: color 250ms var(--cubic);}
   
   .mobile-menu-list:is(:hover, :focus) {color: #404BBF;}
   
@@ -86,7 +87,7 @@
   .addres-mobile-link-email:is(:hover, :focus) {color: #4D5AE5;}
   
   
-    .mobile-social-list {display: flex; gap: 64px;
+    .mobile-social-list {display: flex; gap: 56px;
   }
   .social-list-item {
   }

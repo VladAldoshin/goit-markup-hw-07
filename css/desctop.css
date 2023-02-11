@@ -87,6 +87,8 @@ border-radius: 2px;
 }
 .studio-active{color: #404BBF;}
 
+.mobile-menu {display: none;}
+
 /* ===============Hero section==================== */
 
 .hero-section {
