@@ -81,7 +81,7 @@ position: absolute;
 width: 48px;
 height: 4px;
 left: 0px;
-top: 50px;
+top: 47px;
 background: #404BBF;
 border-radius: 2px;
 }
@@ -539,7 +539,6 @@ height: 88px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px; 
   padding-left: 42px;
-  /* margin-bottom: 8px; */
   transition: border 250ms var(--cubic);}
   
   .modal-form-wrapper{position: relative; display: block;}
@@ -637,12 +636,14 @@ height: 88px;
   
   .modal-form-button:is(:hover, :focus) {color: #ffffff;
     background: #404bbf;}
+}
+
+
+
+
+
   
   
-  
-  
-  
-  }
 
 
 

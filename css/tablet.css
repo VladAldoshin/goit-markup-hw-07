@@ -25,12 +25,25 @@ margin: 0;}}
   width: 48px;
   height: 4px;
   left: 0px;
-  top: 54px;
+  top: 48px;
   background: #404BBF;
   border-radius: 2px;
   }
 
   .mobile-menu {display: none;}
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .contact {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 1.33;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      transition: color 250ms var(--cubic);
+    }
+  }
 
   
 /* ============Hero section==================== */
@@ -118,7 +131,12 @@ margin-bottom: 72px;
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
 .work-item {width: 356px;}
-.work-item:nth-child(odd){margin-right: 24px;}}
+.work-item:nth-child(odd){margin-right: 24px;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+.work-item:nth-child(-n+2) {margin-bottom: 72px;}
+}
 
 .feature-list {
   display: flex;
@@ -193,7 +211,10 @@ margin-bottom: 72px;
   .footer-text {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+ 
+  max-width: 582px;
+  padding-left: 0;
+  padding-right: 0;
   }
   
   .color-text {
@@ -201,7 +222,7 @@ margin-bottom: 72px;
   max-width: 264px;
   margin-top: 16px;
   }
-  .footer-first-text {display: flex; flex-direction: column; margin-left: 108px; margin-right: 24px; margin-bottom: 72px;}
+  .footer-first-text {display: flex; flex-direction: column; margin-right: 24px; margin-bottom: 72px;}
   
   .logo-web {
   color: #4d5ae5;
@@ -238,7 +259,7 @@ margin-bottom: 72px;
   
   .footer-social-list-link:is(:hover, :focus) {background-color: #31D0AA;}
   
-  .footer-subscribe-form {display: flex; flex-direction: column; margin-left: 108px;}
+  .footer-subscribe-form {display: flex; flex-direction: column;}
   
   .footer-subscribe-title{display: block;
   font-family: 'Roboto';
@@ -292,9 +313,21 @@ margin-bottom: 72px;
   .footer-subscribe-button:is(:hover, :focus) {color: #ffffff;
   background: #404bbf;}
   }
-
-
-
 }
+
+/* ===========================Modal window====================================== */
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+.modal{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 408px;
+height: 584px;
+background: #FCFCFC;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+padding: 24px 24px;}}
 
 
